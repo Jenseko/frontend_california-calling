@@ -1,8 +1,8 @@
 /* ====================================================   
-            Media Queries - 600px
+            Media Queries - 390px
 =====================================================*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 390px) {
   html {
     font-size: 7px;
   }
@@ -13,6 +13,14 @@
     background-color: #000;
     color: #fff;
     height: 70vh;
+  }
+  header section h1,
+  header section h2 {
+    font-size: 8rem;
+  }
+
+  header section div img {
+    padding-top: 25px;
   }
 
   header section p:nth-of-type(2) {
@@ -31,12 +39,12 @@
   /* ≈≈≈≈≈≈≈≈≈ Article - Last Year ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
 
   .last_year_article .headline_article {
-    padding-top: 20vh;
-    font-size: 7rem;
-    padding-left: 100px;
-    width: 80%;
-    line-height: 70px;
+    padding-top: 30vh;
+    font-size: 4.8rem;
+    width: 90%;
+    line-height: 2;
     margin-bottom: 8vh;
+    margin-inline: auto;
   }
 
   .last_year_article {
@@ -48,12 +56,12 @@
   }
 
   .last_year_article .div_values h5 {
-    font-size: 6.4rem;
+    font-size: 5.4rem;
     margin-bottom: 2vh;
   }
 
   .last_year_article .div_values h5:nth-of-type(3) {
-    padding-left: 100px;
+    padding-left: 10px;
     font-size: 6.4rem;
     padding-bottom: 100px;
   }
@@ -62,10 +70,10 @@
 
   .section_stuck_middle {
     display: grid;
-    grid-template-columns: repeat(2, 250px);
-    grid-template-rows: repeat(8, 170px);
-    column-gap: 10px;
-    margin: 4.5vh 45px;
+    grid-template-columns: repeat(2, 180px);
+    gap: 0.8rem;
+    margin-block: 4.5vh;
+    padding-left: 8px;
   }
 
   /* ≈≈≈≈≈≈ Section - Stuck middle - Gallery ≈≈≈≈≈≈≈≈≈*/
@@ -77,7 +85,7 @@
   .section_stuck_middle img:nth-of-type(5),
   .section_stuck_middle img:nth-of-type(6),
   .section_stuck_middle img:nth-of-type(7) {
-    width: 250px;
+    width: 180px;
     position: static;
     inset: 0;
   }
@@ -92,41 +100,34 @@
     grid-row: 1 / 2;
   }
 
-  .section_stuck_middle article {
-    margin: 0;
-    width: 100%;
-    height: 0;
-  }
-
   .section_stuck_middle article h5 {
-    padding-top: 10vh;
+    padding-top: 0;
+    text-align: center;
     font-size: 5rem;
     line-height: 0px;
     grid-column: 1 / 3;
     grid-row: 2 / 3;
   }
 
-  .section_stuck_middle article p:nth-of-type(1) {
-    line-height: 10px;
-    width: 100%;
-    grid-column: 1 / 3;
-    grid-row: 3 / 4;
-  }
-
   .section_stuck_middle img:nth-of-type(3) {
     grid-column: 1 / 2;
-    grid-row: 4 / 5;
+    grid-row: 3 / 4;
   }
 
   .section_stuck_middle img:nth-of-type(4) {
     grid-column: 2 / 3;
-    grid-row: 4 / 5;
+    grid-row: 3 / 4;
   }
 
+  .section_stuck_middle article p:nth-of-type(1) {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    text-align: center;
+  }
   .section_stuck_middle article p:nth-of-type(2) {
-    line-height: 10px;
     grid-column: 1 / 3;
     grid-row: 5 / 6;
+    text-align: center;
   }
 
   .section_stuck_middle img:nth-of-type(5) {
@@ -148,24 +149,26 @@
   /* ≈≈≈≈≈≈≈≈≈ Section - Stuck middle - Article ≈≈≈≈≈≈*/
 
   .section_stuck_middle article {
-    margin: 0 auto;
-    width: 34%;
+    margin-inline: auto;
+    width: 390px;
   }
 
   .section_stuck_middle article h5 {
-    padding-top: 45vh;
+    padding-top: 0vh;
     line-height: 70px;
-    padding-top: 4vh;
+    width: 100%;
   }
 
   .section_stuck_middle article p {
-    line-height: 32px;
-    margin-top: 2vh;
+    line-height: 1;
+    margin-top: 0vh;
+    margin-inline: auto;
   }
 
   .section_stuck_middle article p:nth-of-type(2) {
-    margin-bottom: 5px;
-    margin-top: 4vh;
+    margin-top: 1rem;
+    margin-inline: auto;
+    margin-bottom: 20px;
   }
 
   /* ≈≈≈≈≈≈≈≈≈ Section - Golden Bear ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
@@ -176,15 +179,37 @@
     margin-top: 5px;
   }
 
+  .golden_bear_article {
+    margin-top: 0;
+  }
+
+  .golden_bear_article div {
+    text-align: center;
+  }
+
   /* ≈≈≈≈≈≈ Section - Golden Bear - Article ≈≈≈≈≈≈≈≈≈≈*/
 
+  .golden-bear-text {
+    padding-right: 0;
+  }
+
+  .golden-bear-text h5 {
+    width: 360px;
+    text-align: center;
+  }
+
+  .golden-bear-text p {
+    margin-inline: auto;
+  }
+
   .golden_bear_section .golden_bear_article {
-    display: block;
-    padding: 3vh 0 0 100px;
+    display: inline-block;
+    padding-inline: 10px;
+    width: 380px;
   }
 
   .golden_bear_section .golden_bear_article div:nth-of-type(1) h2 {
-    font-size: 6.5rem;
+    font-size: 4.5rem;
   }
 
   .golden_bear_section .golden_bear_article div:nth-of-type(2) h5 {
@@ -193,15 +218,19 @@
   /* ≈≈≈≈≈≈≈≈≈ Section - Golden Bear - Figure ≈≈≈≈≈≈≈≈*/
 
   .golden_bear_section .golden_bear_figure img:nth-of-type(1) {
-    width: 450px;
+    width: 90%;
     position: static;
     margin: 0;
+    margin-block: 3rem;
   }
 
   .golden_bear_section .golden_bear_figure img:nth-of-type(2) {
-    width: 250px;
+    width: 40%;
     position: static;
     margin: 0;
+    margin-top: -50px;
+    display: inline-block;
+    padding-left: 20px;
   }
 
   /* ≈≈≈≈≈≈≈≈≈ Section - Poppy Bear ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
