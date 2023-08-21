@@ -1,0 +1,318 @@
+/* ====================================================   
+            Media Queries - 600px
+=====================================================*/
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 7px;
+  }
+
+  /* =============== Header ======================= */
+
+  header {
+    background-color: #000;
+    color: #fff;
+    height: 70vh;
+  }
+
+  header section p:nth-of-type(2) {
+    margin-top: 2rem;
+  }
+
+  header section div:nth-of-type(2) {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+  }
+
+  /* ================ Main ======================= */
+
+  /* ≈≈≈≈≈≈≈≈≈ Article - Last Year ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
+
+  .last_year_article .headline_article {
+    padding-top: 20vh;
+    font-size: 7rem;
+    padding-left: 100px;
+    width: 80%;
+    line-height: 70px;
+    margin-bottom: 8vh;
+  }
+
+  .last_year_article {
+    padding-bottom: 4vh;
+  }
+
+  .last_year_article .div_values p {
+    margin-bottom: 10px;
+  }
+
+  .last_year_article .div_values h5 {
+    font-size: 6.4rem;
+    margin-bottom: 2vh;
+  }
+
+  .last_year_article .div_values h5:nth-of-type(3) {
+    padding-left: 100px;
+    font-size: 6.4rem;
+    padding-bottom: 100px;
+  }
+
+  /* ≈≈≈≈≈≈≈≈≈ Section - Stuck middle ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
+
+  .section_stuck_middle {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(8, 170px);
+    column-gap: 10px;
+    margin: 4.5vh 45px;
+  }
+
+  /* ≈≈≈≈≈≈ Section - Stuck middle - Gallery ≈≈≈≈≈≈≈≈≈*/
+
+  .section_stuck_middle img:nth-of-type(1),
+  .section_stuck_middle img:nth-of-type(2),
+  .section_stuck_middle img:nth-of-type(3),
+  .section_stuck_middle img:nth-of-type(4),
+  .section_stuck_middle img:nth-of-type(5),
+  .section_stuck_middle img:nth-of-type(6),
+  .section_stuck_middle img:nth-of-type(7) {
+    width: 250px;
+    position: static;
+    inset: 0;
+  }
+
+  .section_stuck_middle img:nth-of-type(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .section_stuck_middle img:nth-of-type(2) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .section_stuck_middle article {
+    margin: 0;
+    width: 100%;
+    height: 0;
+  }
+
+  .section_stuck_middle article h5 {
+    padding-top: 10vh;
+    font-size: 5rem;
+    line-height: 0px;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .section_stuck_middle article p:nth-of-type(1) {
+    line-height: 10px;
+    width: 100%;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+  }
+
+  .section_stuck_middle img:nth-of-type(3) {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+
+  .section_stuck_middle img:nth-of-type(4) {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+  }
+
+  .section_stuck_middle article p:nth-of-type(2) {
+    line-height: 10px;
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
+  }
+
+  .section_stuck_middle img:nth-of-type(5) {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+  }
+
+  .section_stuck_middle img:nth-of-type(6) {
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+  }
+
+  .section_stuck_middle img:nth-of-type(7) {
+    grid-column: 1 / 3;
+    grid-row: 7 / 8;
+    margin: 0 auto;
+  }
+
+  /* ≈≈≈≈≈≈≈≈≈ Section - Stuck middle - Article ≈≈≈≈≈≈*/
+
+  .section_stuck_middle article {
+    margin: 0 auto;
+    width: 34%;
+  }
+
+  .section_stuck_middle article h5 {
+    padding-top: 45vh;
+    line-height: 70px;
+    padding-top: 4vh;
+  }
+
+  .section_stuck_middle article p {
+    line-height: 32px;
+    margin-top: 2vh;
+  }
+
+  .section_stuck_middle article p:nth-of-type(2) {
+    margin-bottom: 5px;
+    margin-top: 4vh;
+  }
+
+  /* ≈≈≈≈≈≈≈≈≈ Section - Golden Bear ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
+
+  .golden_bear_section {
+    color: #fff;
+    background-color: #000;
+    margin-top: 5px;
+  }
+
+  /* ≈≈≈≈≈≈ Section - Golden Bear - Article ≈≈≈≈≈≈≈≈≈≈*/
+
+  .golden_bear_section .golden_bear_article {
+    display: block;
+    padding: 3vh 0 0 100px;
+  }
+
+  .golden_bear_section .golden_bear_article div:nth-of-type(1) h2 {
+    font-size: 6.5rem;
+  }
+
+  .golden_bear_section .golden_bear_article div:nth-of-type(2) h5 {
+  }
+
+  /* ≈≈≈≈≈≈≈≈≈ Section - Golden Bear - Figure ≈≈≈≈≈≈≈≈*/
+
+  .golden_bear_section .golden_bear_figure img:nth-of-type(1) {
+    width: 450px;
+    position: static;
+    margin: 0;
+  }
+
+  .golden_bear_section .golden_bear_figure img:nth-of-type(2) {
+    width: 250px;
+    position: static;
+    margin: 0;
+  }
+
+  /* ≈≈≈≈≈≈≈≈≈ Section - Poppy Bear ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
+  /* ≈≈≈≈≈≈ Section - Poppy Bear - Article ≈≈≈≈≈≈≈≈≈≈≈≈≈ */
+
+  .poppy_bear_section .poppy_bear_article {
+    display: block;
+    padding-left: 0;
+  }
+
+  .poppy_bear_section .poppy_bear_article div:nth-of-type(1) h2 {
+    padding-top: 0px;
+  }
+
+  .poppy_bear_section .poppy_bear_article div:nth-of-type(2) {
+    padding-right: 0px;
+  }
+
+  .poppy_bear_section .poppy_bear_article div:nth-of-type(2) h6 {
+    line-height: 18px;
+  }
+
+  .poppy_bear_section .poppy_bear_article div:nth-of-type(2) p {
+    margin-top: 0px;
+  }
+
+  /* ≈≈≈≈≈≈≈≈≈ Section - Poppy Bear - Figure ≈≈≈≈≈≈≈≈*/
+
+  .poppy_bear_section .poppy_bear_figure {
+    position: static;
+  }
+
+  .poppy_bear_section .poppy_bear_figure img:nth-of-type(1) {
+    width: 450px;
+    margin-top: 10px;
+  }
+
+  .poppy_bear_section .poppy_bear_figure img:nth-of-type(2) {
+    width: 250px;
+    position: static;
+  }
+
+  /* ================ Footer ======================= */
+
+  /* ≈≈≈≈≈≈≈≈≈ Article - Join Us ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
+
+  footer {
+    position: static;
+  }
+
+  .join_us_article p:nth-of-type(1) {
+    padding-top: 50px;
+    margin-bottom: 24px;
+  }
+
+  .join_us_article h5 {
+    margin-bottom: 40px;
+    width: 80%;
+  }
+
+  .join_us_article p:nth-of-type(2) {
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 auto;
+  }
+
+  /* ≈≈≈≈≈≈≈≈≈ Div - Icons ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
+
+  footer section {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  section div:nth-of-type(1) img {
+    width: 2rem;
+    margin-bottom: 8px;
+  }
+
+  section div:nth-of-type(1) img:nth-of-type(2),
+  section div:nth-of-type(1) img:nth-of-type(3) {
+    margin-left: 0;
+  }
+
+  section div:nth-of-type(1) img:nth-of-type(3) {
+    margin-top: 0;
+  }
+
+  footer section div p:nth-of-type(2) {
+    margin: 0;
+  }
+
+  footer section div:nth-of-type(2) img {
+    margin-top: 5px;
+    width: 10rem;
+  }
+
+  /* ≈≈≈≈≈ Div - Animation Banner ≈≈≈≈≈≈≈≈≈*/
+
+  footer .banner_animation_div {
+    font-size: 6rem;
+    position: static;
+    transform: rotateZ(-45deg) translateX(0) translateY(0);
+  }
+
+  /* ≈≈≈≈≈ Div - NGO-logos ≈≈≈≈≈≈≈≈≈*/
+
+  footer section .ngo-logos_div {
+    padding: 0 100px 80px 0;
+  }
+}

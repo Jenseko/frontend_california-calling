@@ -1,0 +1,445 @@
+/* ================== Generals==================== 
+
+Font: WorkSans, Lora
+Farbe: #fff / #000
+
+=================================================*/
+
+@font-face {
+  font-family: "Lora";
+  src: url("../fonts/lora/Lora-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Work-Sans";
+  src: url("../fonts/work_sans/WorkSans-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+p {
+  font-family: Work-Sans, sans-serif;
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Lora;
+  font-weight: lighter;
+}
+
+/* ================ HEADER ======================= */
+
+header {
+  background-color: #000;
+  color: #fff;
+  height: 80vh;
+}
+
+header section {
+  text-align: center;
+}
+
+header section .line img {
+  height: 200px;
+}
+
+header section p:nth-of-type(1) {
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+header section h1,
+header section h2 {
+  font-size: 8.8rem;
+  line-height: 70px;
+}
+
+header section h2 {
+  color: #000;
+  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
+header section p:nth-of-type(2) {
+  margin-top: 2rem;
+}
+
+header section div:nth-of-type(2) {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+header section div .button {
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  font-size: 2rem;
+}
+
+header section div .button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 1.5s ease-out;
+}
+
+/* ================ Main ======================= */
+
+/* ≈≈≈≈≈≈≈≈≈ Article - Last Year ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
+
+.last_year_article {
+  background-color: #000;
+  background-image: url("../img/map.svg");
+  background-repeat: no-repeat;
+  background-position: 900px 650px;
+  background-size: 33%;
+  color: #fff;
+  padding-bottom: 4vh;
+}
+
+.last_year_article .headline_article {
+  padding-top: 14vh;
+  font-size: 8.8rem;
+  padding-left: 100px;
+  width: 60%;
+  line-height: 112px;
+  margin-bottom: 8vh;
+}
+
+.last_year_article .div_values p {
+  padding-left: 100px;
+  margin-bottom: 10px;
+}
+
+.last_year_article .div_values h5 {
+  padding-left: 100px;
+  font-size: 6.4rem;
+  margin-bottom: 8vh;
+}
+
+.last_year_article .div_values h5:nth-of-type(3) {
+  padding-left: 100px;
+  font-size: 6.4rem;
+  padding-bottom: 100px;
+}
+
+/* ≈≈≈≈≈≈≈≈≈ Section - Stuck middle ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
+
+.section_stuck_middle {
+  position: relative;
+}
+
+/* ≈≈≈≈≈≈ Section - Stuck middle - Gallery ≈≈≈≈≈≈≈≈≈*/
+
+.section_stuck_middle img:nth-of-type(2),
+.section_stuck_middle img:nth-of-type(3),
+.section_stuck_middle img:nth-of-type(6) {
+  width: 240px;
+  position: absolute;
+}
+
+.section_stuck_middle img:nth-of-type(1),
+.section_stuck_middle img:nth-of-type(4),
+.section_stuck_middle img:nth-of-type(5),
+.section_stuck_middle img:nth-of-type(7) {
+  width: 300px;
+  position: absolute;
+}
+
+.section_stuck_middle img:nth-of-type(1) {
+  top: -80px;
+  left: 820px;
+}
+.section_stuck_middle img:nth-of-type(2) {
+  top: 240px;
+  left: 40px;
+}
+.section_stuck_middle img:nth-of-type(3) {
+  top: 630px;
+  right: 0;
+}
+.section_stuck_middle img:nth-of-type(4) {
+  top: 904px;
+  left: 240px;
+}
+.section_stuck_middle img:nth-of-type(5) {
+  top: 1000px;
+  left: 900px;
+}
+.section_stuck_middle img:nth-of-type(6) {
+  top: 1337px;
+}
+.section_stuck_middle img:nth-of-type(7) {
+  top: 1590px;
+  left: 740px;
+}
+
+/* ≈≈≈≈≈≈≈≈≈ Section - Stuck middle - Article ≈≈≈≈≈≈*/
+
+.section_stuck_middle article {
+  margin: 0 auto;
+  width: 34%;
+}
+
+.section_stuck_middle article h5 {
+  font-size: 8.8rem;
+  padding-top: 45vh;
+  line-height: 70px;
+}
+
+.section_stuck_middle article p {
+  line-height: 32px;
+  margin-top: 2vh;
+}
+
+.section_stuck_middle article p:nth-of-type(2) {
+  margin-top: 80vh;
+  margin-bottom: 30vh;
+}
+
+/* ≈≈≈≈≈≈≈≈≈ Section - Golden Bear ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
+
+.golden_bear_section {
+  color: #fff;
+  background-color: #000;
+  height: 143vh;
+}
+
+/* ≈≈≈≈≈≈ Section - Golden Bear - Article ≈≈≈≈≈≈≈≈≈≈*/
+
+.golden_bear_section .golden_bear_article {
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+  padding: 30vh 0 0 100px;
+}
+
+.golden_bear_section .golden_bear_article div:nth-of-type(1) h2 {
+  font-size: 8.8rem;
+  padding-top: 30px;
+  line-height: 70px;
+}
+
+.golden_bear_section .golden_bear_article div:nth-of-type(2) {
+  padding-right: 290px;
+  padding-top: 10px;
+}
+
+.golden_bear_section .golden_bear_article div:nth-of-type(2) h5 {
+  font-size: 3.2rem;
+  line-height: 32px;
+  font-weight: lighter;
+}
+
+.golden_bear_section .golden_bear_article div:nth-of-type(2) p {
+  margin-top: 20px;
+}
+/* ≈≈≈≈≈≈≈≈≈ Section - Golden Bear - Figure ≈≈≈≈≈≈≈≈*/
+
+.golden_bear_section .golden_bear_figure {
+  position: relative;
+}
+
+.golden_bear_section .golden_bear_figure img:nth-of-type(1) {
+  width: 700px;
+  margin: 50px 150px 0;
+}
+
+.golden_bear_section .golden_bear_figure img:nth-of-type(2) {
+  width: 350px;
+  position: absolute;
+  top: 240px;
+  left: 780px;
+}
+
+/* ≈≈≈≈≈≈≈≈≈ Section - Poppy Bear ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
+
+.poppy_bear_section {
+  overflow: hidden;
+}
+
+/* ≈≈≈≈≈≈ Section - Poppy Bear - Animation ≈≈≈≈≈≈≈≈≈≈≈ */
+
+.poppy_bear_section .animation_circle_div {
+  transform: translateX(1130px) translateY(-170px);
+}
+
+.poppy_bear_section .animation_circle_div img {
+  width: 33%;
+  z-index: 0;
+  animation-name: runningcircle;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes runningcircle {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+/* ≈≈≈≈≈≈ Section - Poppy Bear - Article ≈≈≈≈≈≈≈≈≈≈≈≈≈ */
+
+.poppy_bear_section .poppy_bear_article {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  gap: 320px;
+}
+
+.poppy_bear_section .poppy_bear_article div:nth-of-type(1) h2 {
+  font-size: 8.8rem;
+  padding-top: 10px;
+  line-height: 70px;
+}
+
+.poppy_bear_section .poppy_bear_article div:nth-of-type(2) {
+  padding-right: 290px;
+}
+
+.poppy_bear_section .poppy_bear_article div:nth-of-type(2) h6 {
+  font-size: 3.2rem;
+  line-height: 32px;
+}
+
+.poppy_bear_section .poppy_bear_article div:nth-of-type(2) p {
+  margin-top: 20px;
+}
+
+/* ≈≈≈≈≈≈≈≈≈ Section - Poppy Bear - Figure ≈≈≈≈≈≈≈≈*/
+
+.poppy_bear_section .poppy_bear_figure {
+  position: relative;
+}
+
+.poppy_bear_section .poppy_bear_figure img:nth-of-type(1) {
+  width: 700px;
+  margin: 50px 0 100px 435px;
+}
+
+.poppy_bear_section .poppy_bear_figure img:nth-of-type(2) {
+  width: 350px;
+  position: absolute;
+  z-index: 1;
+  left: 140px;
+  top: 170px;
+}
+
+/* ================ Footer ======================= */
+
+/* ≈≈≈≈≈≈≈≈≈ Article - Join Us ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding-left: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.join_us_article p:nth-of-type(1) {
+  padding-top: 100px;
+  margin-bottom: 24px;
+}
+
+.join_us_article h5 {
+  font-size: 3.2rem;
+  margin-bottom: 40px;
+  width: 43%;
+}
+
+.join_us_article p:nth-of-type(2) {
+  border: 1px solid #fff;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 80px;
+}
+
+/* ≈≈≈≈≈≈≈≈≈ Div - Icons ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
+
+footer section {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section div:nth-of-type(1) img {
+  width: 2rem;
+  margin-bottom: 8px;
+}
+
+section div:nth-of-type(1) img:nth-of-type(2),
+section div:nth-of-type(1) img:nth-of-type(3) {
+  margin-left: 5px;
+}
+
+section div:nth-of-type(1) img:nth-of-type(3) {
+  margin-top: 10px;
+}
+
+footer section div p:nth-of-type(2) {
+  margin: 8px 0 100px 0;
+}
+
+footer section div:nth-of-type(2) img {
+  margin-top: 5px;
+  width: 10rem;
+}
+
+/* ≈≈≈≈≈ Div - Animation Banner ≈≈≈≈≈≈≈≈≈*/
+
+footer .banner_animation_div {
+  font-size: 8.8rem;
+  width: 150vw;
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  top: 60px;
+  right: -400px;
+  text-align: center;
+  transform: rotateZ(45deg) translateX(300px);
+  animation-name: runningbanner;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+footer .banner_animation_div h6 span {
+  color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@keyframes runningbanner {
+  0%,
+  100% {
+    transform: rotateZ(45deg) translateX(-300px);
+  }
+  50% {
+    transform: rotateZ(45deg) translateX(-100px);
+  }
+}
+
+/* ≈≈≈≈≈ Div - NGO-logos ≈≈≈≈≈≈≈≈≈*/
+
+footer section .ngo-logos_div {
+  padding: 0 100px 80px 0;
+}
