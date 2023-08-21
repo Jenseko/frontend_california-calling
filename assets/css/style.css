@@ -102,8 +102,8 @@ header section div .button:hover {
   background-color: #000;
   background-image: url("../img/map.svg");
   background-repeat: no-repeat;
-  background-position: 900px 650px;
-  background-size: 33%;
+  background-position: 740px 710px;
+  background-size: 35%;
   color: #fff;
   padding-bottom: 4vh;
 }
@@ -181,7 +181,7 @@ header section div .button:hover {
   top: 1337px;
 }
 .section_stuck_middle img:nth-of-type(7) {
-  top: 1590px;
+  top: 1655px;
   left: 740px;
 }
 
@@ -189,18 +189,20 @@ header section div .button:hover {
 
 .section_stuck_middle article {
   margin: 0 auto;
-  width: 34%;
+  width: 36%;
 }
 
 .section_stuck_middle article h5 {
-  font-size: 8.8rem;
-  padding-top: 45vh;
-  line-height: 70px;
+  font-size: 7rem;
+  padding-top: 46vh;
+  width: 79%;
 }
 
 .section_stuck_middle article p {
-  line-height: 32px;
+  line-height: 2;
   margin-top: 2vh;
+  width: 80%;
+  font-size: 1.3rem;
 }
 
 .section_stuck_middle article p:nth-of-type(2) {
@@ -213,7 +215,8 @@ header section div .button:hover {
 .golden_bear_section {
   color: #fff;
   background-color: #000;
-  height: 143vh;
+  height: 146vh;
+  margin-bottom: 4vh;
 }
 
 /* ≈≈≈≈≈≈ Section - Golden Bear - Article ≈≈≈≈≈≈≈≈≈≈*/
@@ -221,8 +224,8 @@ header section div .button:hover {
 .golden_bear_section .golden_bear_article {
   display: flex;
   justify-content: space-between;
-  gap: 300px;
-  padding: 30vh 0 0 100px;
+  gap: 30rem;
+  padding: 35vh 0 0 100px;
 }
 
 .golden_bear_section .golden_bear_article div:nth-of-type(1) h2 {
@@ -232,7 +235,7 @@ header section div .button:hover {
 }
 
 .golden_bear_section .golden_bear_article div:nth-of-type(2) {
-  padding-right: 290px;
+  padding-right: 220px;
   padding-top: 10px;
 }
 
@@ -261,6 +264,7 @@ header section div .button:hover {
   position: absolute;
   top: 240px;
   left: 780px;
+  z-index: 1;
 }
 
 /* ≈≈≈≈≈≈≈≈≈ Section - Poppy Bear ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈*/
@@ -272,11 +276,12 @@ header section div .button:hover {
 /* ≈≈≈≈≈≈ Section - Poppy Bear - Animation ≈≈≈≈≈≈≈≈≈≈≈ */
 
 .poppy_bear_section .animation_circle_div {
-  transform: translateX(1130px) translateY(-170px);
+  transform: translateX(1100px) translateY(-150px);
+  z-index: -2;
 }
 
 .poppy_bear_section .animation_circle_div img {
-  width: 33%;
+  width: 25%;
   z-index: 0;
   animation-name: runningcircle;
   animation-duration: 12s;
@@ -414,9 +419,9 @@ footer .banner_animation_div {
   color: #000;
   position: absolute;
   top: 60px;
-  right: -400px;
+  right: -600px;
   text-align: center;
-  transform: rotateZ(45deg) translateX(300px);
+  transform: rotateZ(45deg) translateX(350px);
   animation-name: runningbanner;
   animation-duration: 8s;
   animation-iteration-count: infinite;
